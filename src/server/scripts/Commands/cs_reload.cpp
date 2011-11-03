@@ -722,13 +722,9 @@ public:
 
     static bool HandleReloadWardenChecksCommand(ChatHandler* handler, const char* /*args*/)
     {
-        /*
         sLog->outString("Reloading warden_checks table!");
         sWardenCheckMgr->LoadWardenChecks();
         handler->SendGlobalGMSysMessage("DB table `warden_checks` reloaded.");
-        */
-
-        handler->SendGlobalGMSysMessage("Command disabled temporarily. DB table `warden_checks` NOT reloaded.");
         return true;
     }
 
