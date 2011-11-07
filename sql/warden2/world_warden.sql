@@ -450,7 +450,7 @@ insert  into `warden_checks`(`id`,`type`,`data`,`str`,`address`,`length`,`result
 (434,178,'B8AE30A02C59219D144EE95228C6CC9F99916F6FE423C940','',700714,23,'',NULL),
 (435,178,'DAFD84BA8F977F5CFEEC9310C0EEF8F949F8EB6B827EBE71','',3990720,23,'',NULL),
 (436,191,'B42986974893A82D73CC497B3252E9B844A11A99ACF46BEA','',41188,24,'',NULL),
-(437,243,'','',11287980,8,'04000000903C9F00','Parental Controls related'),
+(437,217,'','RPE.DLL',0,0,'','rEdoX Packet Editor - injected dll'),
 (438,191,'0DC0953AE42E913121092DF17BC2BEE8BE133D1C53C8BFFD','',17762,11,'',NULL),
 (439,178,'72C81E9BA425C54DE57BF4B7745D9C8D6B44D56E8FE933BA','',3049888,31,'',NULL),
 (440,191,'100426CD22E80090502AA7A087B094B49ACFF4E7A09773ED','',30044,16,'',NULL),
@@ -799,5 +799,4 @@ insert  into `warden_checks`(`id`,`type`,`data`,`str`,`address`,`length`,`result
 (783,243,'','',8016079,6,'0F8462010000','Collision M2 Regular'),
 (784,243,'','',8054762,2,'7506','Collision WMD'),
 (785,243,'','',9995315,2,'7544','Multi-Jump Patch'),
-(786,217,'','WPESPY.DLL',0,0,'','WPE PRO - injected dll'),
-(787,217,'','RPE.DLL',0,0,'','rEdoX Packet Editor - injected dll');
+(786,217,'','WPESPY.DLL',0,0,'','WPE PRO - injected dll');
